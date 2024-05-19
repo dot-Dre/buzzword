@@ -17,17 +17,26 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    background: radial-gradient(circle, rgba(215,180,18,1) 0%, rgba(242,207,0,1) 25%, rgba(205,113,21,1) 97%);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.ProseMirror-focused {
+  outline: none;
+}
+
+.input-class::placeholder {
+  color: #050505; /* Set placeholder text color */
 }
