@@ -24,7 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-    background: radial-gradient(circle, rgba(215,180,18,1) 0%, rgba(242,207,0,1) 25%, rgba(205,113,21,1) 97%);
+    /* background: radial-gradient(circle, rgba(215,180,18,1) 0%, rgba(242,207,0,1) 25%, rgba(205,113,21,1) 97%); */
+    /* background: radial-gradient(circle, rgba(228,188,1,1) 0%, rgba(233,226,183,1) 36%, rgba(221,176,15,1) 62%, rgba(158,74,5,1) 92%); */
+    /* background: radial-gradient(circle, rgba(228,188,1,1) 0%, rgba(233,226,183,1) 46%, rgba(221,176,15,1) 62%, rgba(158,74,5,1) 92%); */
+    background: radial-gradient(circle, rgba(194,161,7,1) 0%, rgba(213,195,89,1) 39%, rgba(143,84,1,1) 91%, rgba(122,74,0,1) 96%);
 }
 
 @layer utilities {
